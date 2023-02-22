@@ -42,6 +42,7 @@ The following settings are required to connect to the API.
 | Environment URL API     |    https://api-staging.ons.io                                     |
 | Certificate (.PFX) Path    |  Fullpath to Certificate> Nedap-cert.pfx                       |
 | Certificate Password |    Password of the certificate                                       |
+| IO Import Url| The URL of the IO import *https://{CustomerURL}.ioservice.net/importws/import* | 
 | IO Import Username | The username of the IO import |
 | IO Import Password | The password of the IO import |
 | Mapping File |  The Path to the mapping file |
