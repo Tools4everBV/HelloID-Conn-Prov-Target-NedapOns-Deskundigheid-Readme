@@ -71,6 +71,11 @@ The following settings are required to connect to the API.
   <img src="Deskundigheid-Importcode.png">
 </p>
 
+## Getting help
+> _For more information on how to configure a HelloID PowerShell connector, please refer to our [documentation](https://docs.helloid.com/hc/en-us/articles/360012558020-Configure-a-custom-PowerShell-target-system) pages_
+
+> _If you need help, feel free to ask questions on our [forum](https://forum.helloid.com/forum/helloid-connectors/provisioning/1297-helloid-prov-target-nedap-ons-deskundigheid)_
+
 ## HelloID Docs
 
 The official HelloID documentation can be found at: https://docs.helloid.com/
