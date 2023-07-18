@@ -1,4 +1,4 @@
-# HelloID-Conn-Prov-Target-NedapONS-Deskundigheid
+# HelloID-Conn-Prov-Target-NedapOns-Deskundigheid
 
 | :information_source: Information |
 |:---------------------------|
@@ -27,11 +27,11 @@
 - [HelloID Docs](#helloid-docs)
 
 ## Introduction
-NedapONS is a healthcare application and provides a set of REST APIs and XML IO-Import that allow you to programmatically interact with it's data.
+NedapOns is a healthcare application and provides a set of REST APIs and XML IO-Import that allow you to programmatically interact with it's data.
 
 ## Getting Started
 
-The _HelloID-Conn-Prov-Target-NedapONS-education_ connector can be executed only on-premises using the HelloID-Agent, because of the mapping file and required certificate to authorize with Nedap.
+The _HelloID-Conn-Prov-Target-NedapOns-education_ connector can be executed only on-premises using the HelloID-Agent, because of the mapping file and required certificate to authorize with Nedap.
 
 ### Connection settings
 
@@ -49,7 +49,7 @@ The following settings are required to connect to the API.
 | CSV separation Character| Mapping File CSV Separation Character         |
 
 ### Remarks
-- This connector only correlates a HelloID person with one or more employee accounts in NedapONS and updates the education (deskundigheid). It updates the education of all the accounts from the contracts in the conditions.
+- This connector only correlates a HelloID person with one or more employee accounts in NedapOns and updates the education (deskundigheid). It updates the education of all the accounts from the contracts in the conditions.
 - To empty a education use the text '<geen deskundigheid>' as a placeholder.
 - The script used for updating is identical to the script used for creating.
 
@@ -57,7 +57,7 @@ The following settings are required to connect to the API.
 
 | Files       | Description                                             |
 | ----------- | ------------------------------------------              |
-| create.ps1  | Correlates a HelloID person with a NedapONS employee account and updates the registration profile |
+| create.ps1  | Correlates a HelloID person with a NedapOns employee account and updates the registration profile |
 | update.ps1  | There is no seperate file for the update script as it is identical to the create script |
 ----------
 
