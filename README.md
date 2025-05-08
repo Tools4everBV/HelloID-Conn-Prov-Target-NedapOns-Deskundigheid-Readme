@@ -17,7 +17,7 @@
 
 > [!IMPORTANT]
 >  **Upgrade Warning**
-> This V2 version of the connector has new names for the columns in the education.csv mapping file. Make sure to change that accordingly in your education.csv file when upgrading.
+> This V2 version of the connector has new names for the columns in the Education.csv mapping file. Make sure to change that accordingly in your Education.csv file when upgrading.
 
 
 ## Table of contents
